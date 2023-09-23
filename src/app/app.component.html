@@ -1,0 +1,15 @@
+<app-card *ngFor="let post of getPosts()"
+    [title] = "post.title"
+    [imageUrl] = "post.imageUrl"
+    [userName] = "post.userName"
+    [content] = "post.content"
+></app-card>
+
+
+
+<app-info *ngFor="let info of myInfo"
+    [name] = "info.name"
+    [family] = "info.family"
+    [age] = "info.age"
+    [edu] = "info.edu"
+></app-info>
